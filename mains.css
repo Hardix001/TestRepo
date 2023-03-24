@@ -1,0 +1,92 @@
+body{
+    background-image:url(img/legit\ member.jpg);
+    background-size: cover;
+    
+}
+.header-root{
+    justify-content: center;
+    margin-left: 35%;
+
+}
+.general-div{
+    display: flex;
+    column-gap: 20px;
+}
+.image-div>img{
+    width: 70px;
+}
+.message-div>img{
+    width: 15px;
+}
+.password-div>img{
+    width: 20px;
+}
+
+form{
+    margin-top: 50px;
+    background-color:rgb(255, 255, 255,0.7);
+    
+    width: 250px;
+    height: 300px;
+    padding: 10px 100px 30px 30px;
+    border-radius: 10px;
+    }
+    .existing-div{
+        background-color: rgb(194, 235, 194);
+        border-radius: 8px;
+        width: 300px;
+
+    }
+    .existing-div>h2{
+       padding: 5px 0px 5px 20px;
+    }
+    form>.message-div>input{
+        margin-bottom: 30px ;
+        
+        width: 300px;
+        border-radius: 5px;
+        height: 25px;
+        border: 1px solid black;
+        
+    }
+    form>.password-div>input{
+        width: 300px;
+        border-radius: 5px;
+        height: 25px;
+        border: 1px solid black;
+    }
+   .resume-div>button{
+    margin-top: 25px;
+    background-color: rgb(7, 150, 7);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-weight: 200;
+    font-size: 15px;
+    border-radius: 5px;
+
+   }
+   .resume-div{
+    margin-left: 250px;
+    
+   }
+   .forgot-div>p{
+    color:rgb(96, 210, 210);
+    font-size: 15px;
+    font-weight: 100px;
+   }
+   .copy-div{
+    margin-top: 110px;
+    background-color: rgb(87, 129, 87);
+    height: 65px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border: 3px red solid;
+    
+  }
+  .copy-div>p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
